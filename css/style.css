@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 10%;
+    background-color: bisque;
+}
+
+.nav {
+    width: 20%;
+    height: 80%;
+    background-color: burlywood;
+    display: inline-block;
+}
+
+.content {
+    width: 79%;
+    height: 80%;
+    background: url(../img/wallpaperbetter.jpg) center/cover no-repeat;
+    display: inline-block;
+}
+
+.footer {
+    width: 100%;
+    height: 10%;
+    background-color: chocolate;
+}
